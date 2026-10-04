@@ -28,8 +28,8 @@ The dataset contains 114 countries and includes measures of income, unemployment
 |Population Density	|283.87	|985.22|	2| 8 041|
 |Crime Rate	|44.50|	14.22|	15.23|	83.76|
 |Unemployment	|7.74	|5.64	|0.70|	35.30|
-|Human Development Index	|0.782	|0.123|	0.49	|0.96|
-|Happiness Index	|5.748|	1.025|	2.52|	7.84
+|Human Development Index (HDI)	| 0.782	|0.123|	0.49	|0.96|
+|Happiness Index	|5.748|	1.025|	2.52|	7.84|
 |Literacy Rate	|0.900	|0.139	|0.38	|1.00|
 |Gini Index	| 37.09|	9.58|	0.36|	69.30|
 |Weapons per 100 Persons	|12.35	|14.31	|0.00|	120.50|
