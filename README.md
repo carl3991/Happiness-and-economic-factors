@@ -3,8 +3,9 @@
 ## Project Overview
 This project investigates the factors associated with national happiness using data from the World Happiness Report. The analysis combines exploratory data analysis (EDA), multiple linear regression (MLR), interaction modeling, and diagnostic testing to identify the strongest predictors of happiness while ensuring the validity of statistical assumptions.
 The primary objective was to determine whether economic prosperity, human development, unemployment, population density, inequality, crime, literacy, and firearm ownership contribute to differences in happiness level across countries.
-#### Research Question: 
+### Research Question: 
 **Which socio-economic factors most strongly influence national happiness, and how can happiness be explained using a multiple linear regression?**
+<br></br>
 
 ## Tools and Libraries
 - Pandas
@@ -18,6 +19,7 @@ The primary objective was to determine whether economic prosperity, human develo
 - Cook's Distance
 - Regression Diagnostics
 
+<br></br>
 
 ## Dataset Summary
 
@@ -34,6 +36,7 @@ The dataset contains 114 countries and includes measures of income, unemployment
 | Literacy Rate	| 0.900	| 0.139	|0.38	|1.00 |
 | Gini Index	| 37.09 |	9.58 |	0.36|	69.30 |
 | Weapons per 100 Persons | 12.35	| 14.31	| 0.00 |	120.50 |
+<br></br>
 
 ## Exploratory Data Analysis
 #### Distribution Characteristics
@@ -45,10 +48,12 @@ Several predictors exhibited noticeable positive skewness.
 |Unemployment|	2.08	| A limited number of countries report exceptionally high unemployment rates.|
 |Income|	1.91	|Wealth is concentrated among a smaller number of high-income countries.|
 
+<br></br>
 
 ## Best Interpretable Linear Regression Model
 After comparing multiple model specifications, the preferred model for interpretation included:
 **Happiness = B0 + B1*(Log Income) + B2*(Population Density) + B3*(Unemployment) + B4*(HDI) + B5*(HDI*Unemployment)**
+<br></br>
 
 ## Model Interpretation
 #### Human Development Index (HDI)
@@ -65,6 +70,7 @@ After comparing multiple model specifications, the preferred model for interpret
 - More densely populated countries tend to exhibit slightly lower happiness levels after controlling for other variables.
 #### Interaction Effect: HDI × Unemployment
 - Happiness is strongly associated with income and population density, but the relationship between unemployment and happiness is moderated by human development. **Countries with higher levels of human development appear better able to mitigate the adverse effects of unemployment on well-being.**
+<br></br>
 
 ## Model Diagnostics
 Diagnostics evaluation indicates:
@@ -72,7 +78,7 @@ Diagnostics evaluation indicates:
 - No systematic curvature is present.
 - Residuals remain distributed above and below zero throughout the range of fitted values.
 - Residual variance appears relatively constant.
-
+<br></br>
 
 ## Multicollinearity Assessment
 Variance Inflation Factors (VIF) were computed for all predictors.
@@ -86,7 +92,7 @@ Variance Inflation Factors (VIF) were computed for all predictors.
 - All predictors had VIF values below 5.
 - No evidence of problematic multicollinearity was detected.
 - Multicollinearity is not a major concern.
-
+<br></br>
   
 ## Breusch-Pagan Test
 The Breusch-Pagan test was used to evaluate heteroscedasticity.
@@ -96,7 +102,7 @@ Null Hypothesis (H₀): Residuals exhibit homoscedasticity (constant variance).
 Alternative Hypothesis (H₁): Residuals exhibit heteroscedasticity (non-constant variance).
 
 |Test Statistic | Value|
-|************|**********|
+|----------------|-----------|
 |LM Statistic |10.96|
 |LM p-value |0.204|
 |F Statistic |1.396|
@@ -111,12 +117,13 @@ Since the p-value exceeds 0.05:
 -  There is insufficient evidence of heteroscedasticity.
 
 -  The assumption of constant error variance appears satisfied.
+  <br></br>
   
 ## Influential Observation Analysis
 Influence diagnostics identified four notable countries:
 
 | Country | Reason for Influence|
-|**********|*******************|
+|------------|---------------------|
 |Singapore | Extremely high population density and strong socioeconomic indicators|
 |Hong Kong |Extremely high population density and strong socioeconomic indicators|
 |Afghanistan | Large prediction error relative to model expectations|
@@ -128,6 +135,7 @@ Although these observations exert noticeable influence on model estimates:
 - No country exhibited a Cook's Distance greater than 1.
 - No single observation excessively dominated the regression results.
 Conclusion: The model is not driven by any individual country.
+<br></br>
 
 ## Key Findings
 
