@@ -23,8 +23,8 @@ The primary objective was to determine whether economic prosperity, human develo
 
 The dataset contains 114 countries and includes measures of income, unemployment, population density, inequality, education, crime, firearm ownership, human development, and happiness.
 
-|Variable|	Mean|	Std Deviation|	Min|	Max|
-|******************|***********| 
+|Variable|	Mean|	Std. Deviation|	Min|	Max|
+|******************|***********| **********|***********|
 |Income	17,725|	22,101|	508|	117,182|
 |Population Density	|283.87	|985.22|	2	8,041|
 |Crime Rate	|44.50|	14.22|	15.23|	83.76|
