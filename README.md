@@ -41,11 +41,18 @@ The dataset contains 114 countries and includes measures of income, unemployment
 
 ## Exploratory Data Analysis
 
+#### Happiness Index Distribution
+
+<img width="900" height="600" alt="happiness_distribution" src="https://github.com/user-attachments/assets/53d9324d-a502-430e-8874-f9cf80aeb454" />
+
 #### Correlation Matrix
-<img width="900" height="650" alt="correlation_matrix" src="https://github.com/user-attachments/assets/3ef8847c-c3d7-47a7-a8dc-0cb611c3944c" />
+<img width="900" height="600" alt="correlation_matrix" src="https://github.com/user-attachments/assets/3ef8847c-c3d7-47a7-a8dc-0cb611c3944c" />
 
 #### Happiness vs. Income 
 <img width="800" height="600" alt="happiness_vs_income" src="https://github.com/user-attachments/assets/841d91b4-bfc4-43d6-9472-80fb788c2496" />
+
+#### Happiness vs. Human Development Index
+<img width="900" height="600" alt="happiness_vs_hdi" src="https://github.com/user-attachments/assets/79723009-0284-4461-a4a5-b89cbe0be67e" />
 
 #### Distribution Characteristics
 Several predictors exhibited noticeable positive skewness.
