@@ -55,12 +55,13 @@ Several predictors exhibited noticeable positive skewness.
 The best interpretable model explaining national happiness was:
 
 **Happiness = β₀ + β₁·Log(Income) + β₂·Population Density + β₃·Unemployment + β₄·HDI + β₅·(HDI × Unemployment)**
+
 Happiness Index = -0.590
-                + 0.498·ln(Income)
-                - 0.00014·Population Density
-                - 0.005·Unemployment
-                + 2.451·HDI
-                + 0.291·(HDI × Unemployment)
+                + 0.498*ln(Income)
+                - 0.00014*Population Density
+                - 0.005*Unemployment
+                + 2.451*HDI
+                + 0.291*(HDI × Unemployment)
 <br></br>
 
 ## Model Interpretation
