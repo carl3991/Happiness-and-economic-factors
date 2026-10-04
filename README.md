@@ -97,10 +97,9 @@ Diagnostics evaluation indicates:
 - Residuals remain distributed above and below zero throughout the range of fitted values.
 - Residual variance appears relatively constant.
 <br></br>
-<p align="center">
-  <img src="residuals_vs_fitted.png
-  <imges/qqplot of residuals.png
-</p>
+images/residuals_vs_fitted.png
+images/qqplot of residuals.png
+
 
 <br></br>
 ## Multicollinearity Assessment
@@ -177,6 +176,7 @@ Conclusion: The model is not driven by any individual country.
 - Economic prosperity (Income per Capita) remains the strongest overall predictor.
 
 <br></br>
+
 ## Author
 
 [Carl Legros](https://www.linkedin.com/in/carllegros/)
