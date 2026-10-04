@@ -40,6 +40,10 @@ The dataset contains 114 countries and includes measures of income, unemployment
 <br></br>
 
 ## Exploratory Data Analysis
+
+#### Correlation Matrix
+<img width="400" height="350" alt="correlation_matrix" src="https://github.com/user-attachments/assets/3ef8847c-c3d7-47a7-a8dc-0cb611c3944c" />
+
 #### Distribution Characteristics
 Several predictors exhibited noticeable positive skewness.
 |Variable	|Skewness|	Interpretation|
