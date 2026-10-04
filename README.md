@@ -36,6 +36,7 @@ The dataset contains 114 countries and includes measures of income, unemployment
 | Literacy Rate	| 0.900	| 0.139	|0.38	|1.00 |
 | Gini Index	| 37.09 |	9.58 |	0.36|	69.30 |
 | Weapons per 100 Persons | 12.35	| 14.31	| 0.00 |	120.50 |
+
 <br></br>
 
 ## Exploratory Data Analysis
