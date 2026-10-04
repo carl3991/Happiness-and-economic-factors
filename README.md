@@ -57,18 +57,18 @@ After comparing multiple model specifications, the preferred model for interpret
 <br></br>
 
 ## Model Interpretation
-#### Human Development Index (HDI)
-- HDI emerged as one of the strongest predictors of happiness.
-- Holding all other variables constant, a 0.10 increase in HDI increases predicted happiness by approximately 0.58 points.
 #### Income
 - Higher income is associated with higher happiness.
 - The relationship is nonlinear, hence the logarithmic transformation.
 - Happiness increases with income, but at a decreasing rate, reflecting diminishing marginal returns.
-#### Unemployment
+- #### Population Density
+- More densely populated countries tend to exhibit slightly lower happiness levels after controlling for other variables.
+- #### Unemployment
 - For every 1 percentage-point increase in unemployment, happiness decreases by approximately 0.021 points, holding other variables constant.
 - The effect of unemployment is moderated by HDI.
-#### Population Density
-- More densely populated countries tend to exhibit slightly lower happiness levels after controlling for other variables.
+#### Human Development Index (HDI)
+- HDI emerged as one of the strongest predictors of happiness.
+- Holding all other variables constant, a 0.10 increase in HDI increases predicted happiness by approximately 0.58 points.
 #### Interaction Effect: HDI × Unemployment
 - Happiness is strongly associated with income and population density, but the relationship between unemployment and happiness is moderated by human development. **Countries with higher levels of human development appear better able to mitigate the adverse effects of unemployment on well-being.**
 <br></br>
@@ -154,8 +154,9 @@ Conclusion: The model is not driven by any individual country.
 
 - Economic prosperity (Income per Capita) remains the strongest overall predictor.
 
+<br></br>
 ## Author
 
-Carl Legros
+(Carl Legros)[https://www.linkedin.com/in/carllegros/]
  MS Data Science| Data Analytics & Statistical Modeling | Data Visualization & Business Intelligence
 
