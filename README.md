@@ -99,10 +99,17 @@ Diagnostics evaluation indicates:
 <br></br>
 
 
+<h3>Residuals vs. Fitted Values</h3>
+ 
+<p align="center">
 images/residuals_vs_fitted.png
-
-images/qqplot of residuals.png
-
+</p>
+ 
+<h3>Q-Q Plot of Residuals</h3>
+ 
+<p align="center">
+images/qq_plot.png
+</p>
 
 <br></br>
 ## Multicollinearity Assessment
