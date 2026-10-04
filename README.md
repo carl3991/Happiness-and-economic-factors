@@ -1,4 +1,3 @@
-<img width="856" height="548" alt="qqplot of residuals" src="https://github.com/user-attachments/assets/612efc1b-dab0-41ac-94e1-b7d6d92ab70c" />
 # **World Happiness Index Analysis**
 
 ## Project Overview
@@ -99,7 +98,7 @@ Diagnostics evaluation indicates:
 - Residual variance appears relatively constant.
 <br></br>
 
-<img width="856" height="625" alt="residuals_vs_fitted" src="https://github.com/user-attachments/assets/be4cc877-8753-4186-bc5a-aa62ed8ddf0b" />
+<img width="856" height="548" alt="qqplot of residuals" src="https://github.com/user-attachments/assets/612efc1b-dab0-41ac-94e1-b7d6d92ab70c" />
 
 <br></br>
 ## Multicollinearity Assessment
