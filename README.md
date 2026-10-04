@@ -98,10 +98,10 @@ Diagnostics evaluation indicates:
 - Residual variance appears relatively constant.
 <br></br>
 
-<img width="200" height="200" alt="qqplot of residuals" src="https://github.com/user-attachments/assets/612efc1b-dab0-41ac-94e1-b7d6d92ab70c" />
+<img width="400" height="200" alt="qqplot of residuals" src="https://github.com/user-attachments/assets/612efc1b-dab0-41ac-94e1-b7d6d92ab70c" />
 
 
-<img width="200" height="200" alt="residuals_vs_fitted" src="https://github.com/user-attachments/assets/e32df326-c982-454d-ad6d-d02bcb2cfa83" />
+<img width="400" height="200" alt="residuals_vs_fitted" src="https://github.com/user-attachments/assets/e32df326-c982-454d-ad6d-d02bcb2cfa83" />
 
 
 <br></br>
