@@ -44,6 +44,9 @@ The dataset contains 114 countries and includes measures of income, unemployment
 #### Correlation Matrix
 <img width="900" height="650" alt="correlation_matrix" src="https://github.com/user-attachments/assets/3ef8847c-c3d7-47a7-a8dc-0cb611c3944c" />
 
+#### Happiness vs. Income 
+<img width="800" height="600" alt="happiness_vs_income" src="https://github.com/user-attachments/assets/841d91b4-bfc4-43d6-9472-80fb788c2496" />
+
 #### Distribution Characteristics
 Several predictors exhibited noticeable positive skewness.
 |Variable	|Skewness|	Interpretation|
