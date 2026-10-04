@@ -57,6 +57,18 @@ The best interpretable model explaining national happiness was:
 **Happiness = β₀ + β₁·Log(Income) + β₂·Population Density + β₃·Unemployment + β₄·HDI + β₅·(HDI × Unemployment)**
 
 Happiness Index = -0.590 + 0.498 ln(Income)- 0.00014 Population Density- 0.005 Unemployment+ 2.451 HDI + 0.291(HDI × Unemployment)
+
+| Metric | Value|
+|--------|------|
+|R² | 0.725 |
+|Adjusted R² | 0.712|
+|F-Statistic | 56.90|
+|Prob(F-Statistic) | 1.05 × 10⁻²⁸|
+|Number of Observations |114|
+| AIC |193.0|
+|BIC | 209.5|
+|Durbin-Watson | 2.047|
+
 <br></br>
 
 ## Model Interpretation
