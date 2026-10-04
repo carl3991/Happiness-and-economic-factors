@@ -97,7 +97,10 @@ Diagnostics evaluation indicates:
 - Residuals remain distributed above and below zero throughout the range of fitted values.
 - Residual variance appears relatively constant.
 <br></br>
+
+
 images/residuals_vs_fitted.png
+
 images/qqplot of residuals.png
 
 
