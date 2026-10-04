@@ -97,7 +97,12 @@ Diagnostics evaluation indicates:
 - Residuals remain distributed above and below zero throughout the range of fitted values.
 - Residual variance appears relatively constant.
 <br></br>
+<p align="center">
+  <img src="residuals_vs_fitted.png
+  <imges/qqplot of residuals.png
+</p>
 
+<br></br>
 ## Multicollinearity Assessment
 Variance Inflation Factors (VIF) were computed for all predictors.
 
@@ -176,5 +181,4 @@ Conclusion: The model is not driven by any individual country.
 
 [Carl Legros](https://www.linkedin.com/in/carllegros/)
 
- MS Data Science| Data Analytics & Statistical Modeling | Data Visualization & Business Intelligence
 
