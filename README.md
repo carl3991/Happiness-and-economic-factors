@@ -77,9 +77,9 @@ Diagnostics evaluation indicates:
 Variance Inflation Factors (VIF) were computed for all predictors.
 
 |Criterion | Interpretation|
-|**********|*************|
-|VIF < 5 | Acceptable|
-|VIF > 10 |Serious concern|
+|----------|----------------|
+| VIF < 5 | Acceptable |
+| VIF > 10 | Serious concern|
 
 #### Conclusion
 - All predictors had VIF values below 5.
