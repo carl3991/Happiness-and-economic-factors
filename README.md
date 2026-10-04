@@ -25,7 +25,7 @@ The dataset contains 114 countries and includes measures of income, unemployment
 
 |Variable|	Mean|	Std. Deviation|	Min|	Max|
 |Income|	17 725|	22 101|	508|	117 182|
-|Population Density	|283.87	|985.22|	28 041|
+|Population Density	|283.87	|985.22|	2| 8 041|
 |Crime Rate	|44.50|	14.22|	15.23|	83.76|
 |Unemployment	|7.74	|5.64	|0.70|	35.30|
 |Human Development Index	|0.782	|0.123|	0.49	|0.96|
