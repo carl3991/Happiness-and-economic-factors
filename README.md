@@ -38,7 +38,7 @@ The dataset contains 114 countries and includes measures of income, unemployment
 #### Distribution Characteristics
 Several predictors exhibited noticeable positive skewness.
 |Variable	|Skewness|	Interpretation|
-|***********|************|
+|***********|************|*********| 
 |Population Density	|6.90|	A small number of countries exhibit extremely high population density.|
 |Weapons per 100 Persons	| 4.15|	Most countries have low firearm ownership, while a few are extreme outliers.|
 |Unemployment|	2.08	| A limited number of countries report exceptionally high unemployment rates.|
