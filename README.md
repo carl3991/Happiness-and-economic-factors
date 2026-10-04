@@ -157,6 +157,7 @@ Conclusion: The model is not driven by any individual country.
 <br></br>
 ## Author
 
-(Carl Legros)[https://www.linkedin.com/in/carllegros/]
+[Carl Legros](https://www.linkedin.com/in/carllegros/)
+
  MS Data Science| Data Analytics & Statistical Modeling | Data Visualization & Business Intelligence
 
