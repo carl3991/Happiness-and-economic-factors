@@ -53,9 +53,8 @@ Several predictors exhibited noticeable positive skewness.
 
 ## Best Interpretable Linear Regression Model
 The best interpretable model explaining national happiness was:
-Y_i = \beta_0 + \beta_1\ln(\text{income_i}) + \beta_2(\text{Population Density_i}) + \beta_3(\text{Unemployment}_i) + \beta_4(\text{HDI}_i) + beta_5(\text{HDI}_i \times \text{Unemployment}_i) + \varepsilon_i
+**Happiness = β₀ + β₁·Log(Income) + β₂·Population Density + β₃·Unemployment + β₄·HDI + β₅·(HDI × Unemployment)**
 
-where \(Y_i\) represents the Happiness Index for country \(i\).
 <br></br>
 
 ## Model Interpretation
